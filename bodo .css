@@ -1,0 +1,728 @@
+/* -----------------------------------header--------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    width: 100%;
+    background-color: rgb(32, 32, 214);
+    height: 44px;
+    position: fixed;
+}
+.rt{
+    height: 44px;
+}
+.ch{
+    float: left;
+    margin-left: 430px;
+    margin-top: 15px;
+}
+.par{
+    overflow: auto;
+}
+.chi{
+    float: left;
+    margin-left: 70px;
+}
+.list li{
+    display: inline-block;
+}
+.bh{
+    color: white;
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: 17px;
+}
+/* ----------------------------------section1---------------------------------------------*/
+
+
+.llp{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../html/images/IMG-20240707-WA0035.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ovverlay{
+    width: 100%;
+    height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.oo{
+    background-color: yellow;
+    color: white;
+
+}
+.jj{
+    background-color: blue;
+    color: white;
+}
+
+.con{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.de{
+    margin-left: 50px;
+}
+.ll{
+    margin-left: 82px;
+}
+.oo,.jj{
+    height: 30px;
+    width: 70px;
+    border-radius: 6px;
+}
+h1 , h4{
+    color: white;
+}
+.rtr{
+   margin-left: 90px; 
+}
+/*-------------------------------------------sectiion2----------------------------------------   */
+
+
+.lpi h2{
+    font-size: 30px;
+margin-left: 40%;
+margin-top: 100px;
+   
+}
+.kk{
+    width: 50px;
+    border: 2px solid blue;
+    margin-left: 50%;
+}
+.child h3{
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pu{
+    margin-left: 45px;
+}
+.e3{
+    margin-left: 55px;
+    margin-top: 15px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+.cs{
+    text-decoration: none;
+    margin-left: 60px;
+color: rgb(38, 38, 191);
+}
+.child1{
+    width: 200px;
+    height: 220px;
+    border: 1px solid gray;
+
+}
+
+.child2{
+    width: 200px;
+    height: 220px;
+    border: 1px solid gray;
+
+}
+    .child3{
+        width: 200px;
+        height: 220px;
+        border: 1px solid gray;
+        
+    }
+    .parent{
+        overflow: auto;
+        margin-left: 100px;
+        margin-top: 150px;
+       height: 100vh;
+       
+    }
+    .child{
+        float: left;
+        margin-left: 60px;
+        position: relative;
+    }
+
+.child::after{
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+   background-color: black;
+    transition: 1s ;
+
+}
+.child:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* -------------------------------section3--------------------------------- */
+.chiild{
+    width: 200px;
+    height: 200px;
+
+    background-size: cover;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+}
+.parr{
+    overflow: auto;
+    margin-left: 120px;
+    margin-top: auto;
+ 
+  
+    
+}
+.nnb{
+
+    margin-left: 40%;
+}
+.line{
+    width: 50px;
+    border: 2px solid blue;
+    margin-left: 47%;
+    margin-bottom: 90px;
+}
+.m1{
+    
+    background-image: url(../html/images/n1.jpg)
+}
+.m2{
+    background-image: url(../html/images/n2.jpg);
+}
+.m3{
+    background-image: url(../html/images/n3.jpg);
+}
+.chiild::after{
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    transition: 1s;
+}
+
+.chiild:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.chilld{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+    margin-left: 60px;
+  position: relative;
+}
+.f1{
+background-image: url(../html/images/n4.jpg);
+}
+.f2{
+    background-image: url(../html/images/n5.jpg);
+}
+.f3{
+    background-image: url(../html/images/n6.jpg);
+}
+.paar{
+    overflow: auto;
+  margin-left: 120px;
+   margin-top: 30px;
+}
+.bb{
+height: 100vh;
+}
+.chilld::after{
+    content: "";
+    position: absolute;
+
+    height: 0;
+    width: 0;
+
+   top: 0;
+   left: 0;
+    
+    transition: 1s;
+    background-color: black;
+}
+
+.chilld:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+}
+/* ****************************************section4******************************************* */
+.section4{
+    height: 100vh;
+    width: 100%;
+}
+.baby{
+    width: 200px;
+    height: 170px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+.baba{
+    overflow: auto;
+    margin-left: 160px;
+    margin-top: 90px;
+}
+.text{
+    margin-left: 44%;
+    font-size: 30px;
+}
+.line1{
+    width: 40px;
+    border: 2px solid blue;
+    margin-left: 47%;
+}
+.baby1{
+    width: 200px;
+    height: 170px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+
+.baba1{
+    overflow: auto;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.gh{
+    font-size: 20px;
+     margin-left: 25px;
+     margin-top: 30px;
+}
+.vr{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 13px; 
+    opacity: 0.4;
+}
+.baby1::after{
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    transition: 1s;
+    background-color: black;
+}
+.baby1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.baby::after{
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 0;
+    height: 0;
+
+    transition: 1s;
+    background-color: black;
+}
+
+.baby:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+/* ****************************************section5************************************************* */
+.texxt{
+    width: 500px;
+    height: 600px;
+}
+.parrr{
+    height: 100vh;
+    overflow: auto;
+}
+.pic{
+    width: 400px;
+    height: 500px;
+    background-image: url(../html/images/Screenshot_20240730_141828_Telegram.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+
+}
+.kj{
+    float: left;
+}
+.lline{
+    width: 50px;
+    border: 2px solid blue;
+    margin-left: 20px;
+}
+.vb{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.mk{
+    opacity: 0.5; margin-left: 20px;
+}
+/* ****************************************section6************************************************ */
+
+.no{
+    background-image: url(../html/images/mj.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section6{
+    height: 100vh;
+    width: 100%;
+}
+/* ******************************************section7******************************************** */
+.section7{
+    width: 100%;
+    height: 100%;
+}
+.la{
+    font-size:30px ;
+   margin-left: 28%;
+margin-bottom: 1%;
+}
+
+.lliine{
+    width: 45px;
+    border: 2px solid blue;
+    margin-left: 42%;
+margin-bottom: 7%;
+ 
+}
+.chh{
+    width: 230px;
+    height: 310px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 35px;
+    position: relative;
+}
+
+.axe{
+    overflow: auto;
+    margin-left: 120px;
+    margin-bottom: 10%;
+}
+.vf{
+    opacity: 0.4;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10%;
+}
+.x{
+    margin-left: 90px;
+}
+.cir{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.z{
+    font-size: 20px;
+   
+}
+.t6{
+    opacity: 0.5;
+margin-left: 30%;
+margin-top: 10%;
+}
+.poi{
+    background-color: white;
+    border: 2px solid rgb(0, 0, 150); 
+    width: 90px;
+    height: 24px;
+    font-size: 10px;
+    margin-top: 10%;
+    margin-left: 28%;
+ }
+.chh::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    transition: 1s;
+}
+
+.chh:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* ******************************************section8***************************************** */
+.section8{
+    width: 100%;
+    height: 100vh;
+}
+.fg{
+    height: 300px;
+    width: 100%;
+    background-image: url(../html/images/o0.jpg);
+    background-attachment: fixed    ;
+}
+/* /* *******************************************section9**************************************.n */
+
+.section9{
+    width: 100%;
+    height: 100vh;
+}
+.b{
+width: 200px; 
+height: 280px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 50px;
+    position: relative;
+
+}
+.aa{
+    display: flex;
+    margin-left: 90px;
+}
+
+.llos{
+    width: 50px;
+    border: 2px solid blue;
+    margin-left: 50%;
+    margin-bottom: 14%;
+}
+.ghj{
+    font-size: 38px;
+    margin-bottom: 2%;
+    margin-left: 44%;
+}
+.cd{
+    width: 160px;
+    height: 160px;
+    background-image: url(../html/images/ppp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.cr{
+    width: 160px;
+    height: 160px;
+    background-image: url(../html/images/mj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 10%; 
+}
+.cv{
+    width: 160px;
+    height: 160px;
+    background-image: url(../html/images/v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 10%; 
+}
+.zxc{
+    margin-left: 18%;
+    margin-top: 18px;
+
+}
+
+.mnb{
+    font-size: 11px;
+    margin-left: 18%;
+    opacity: 0.5;
+}
+.b::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    transition: 1s;
+}
+
+.b:hover::after{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+/* *******************************************section10******************************************** */
+.section10{
+    width: 100%;
+    height: 100vh;
+}
+.cvb{
+    font-size: 30px;
+    margin-left: 40%;
+}
+.df{
+    width: 40px;
+    border: 2px solid blue;
+    margin-left: 45%;
+}
+.we{
+    width: 300px;
+    height: 650px;
+    margin-left: 30px;
+    position: relative;
+}
+.ty{
+    display: flex;
+  
+}
+.pict{
+    width: 200px;
+    height: 320px;
+    background-image: url(../html/images/bv.jpg);
+ background-size: cover;
+    margin-left: 15%;
+}
+.pi{
+    width: 200px;
+    height: 320px;
+    background-image: url(../html/images/lk.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+    margin-left: 15%;
+}
+.pictu{
+    width: 200px;
+    height: 320px;
+    background-image: url(../html/images/poi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-left: 15%;
+}
+.we::after{
+content: "";
+position: absolute;
+
+width: 100%;
+height: 0;
+
+top: 0;
+left: 0;
+
+transition: 1s;
+background-color: black;
+}
+.we:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.cvf{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.zxs{
+    opacity: 0.5;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.cde{
+    text-decoration: none;
+    color: blue;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+/* ************************************section11************************************************** */
+.section11{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(68, 67, 67);
+}
+.sdf{
+    width: 160px;
+    height: 130px;
+    background-image: url(../html/images/er.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 43%;
+}
+
+.rtf{
+    margin-left: 29%;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
